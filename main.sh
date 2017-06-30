@@ -22,7 +22,7 @@ rm -rf ./default.env
 cp -f ./clear.env default.env
 
 echo "" >> ./default.env
-read -p "Enter project name (use for labels):" project_name; echo "PROJECT_NAME=$project_name" >> ./default.env;
+echo "PROJECT_NAME=OpenbankIT" >> ./default.env
 read -p "Enter SMTP host:" smtp_host; echo "SMTP_HOST=$smtp_host" >> ./default.env;
 read -p "Enter SMTP port:" smtp_port; echo "SMTP_PORT=$smtp_port" >> ./default.env;
 read -p "Enter SMTP security:" smtp_security; echo "SMTP_SECURITY=$smtp_security" >> ./default.env;
