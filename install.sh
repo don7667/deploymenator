@@ -9,11 +9,11 @@ DEFAULT_NETWORK_PASSPHRASE="Openbankit Demo ; July 2017"
 DEFAULT_SMTP_HOST="smtp.gmail.com"
 DEFAULT_SMTP_PORT=465
 DEFAULT_SMTP_SECURITY="ssl"
-DEFAULT_SMTP_USERNAME="openbankit.notifications.test@gmail.com"
-DEFAULT_SMTP_PASSWORD="k1Yu^(>=]2)C[](+nH7o"
+DEFAULT_SMTP_USERNAME="pimiz4884@gmail.com"
+DEFAULT_SMTP_PASSWORD="zimip4884"
 
 DOCKER_RIAK_REPO="github.com/openbankit/docker-riak.git"
-DOCKER_NODE_REPO="github.com/openbankit/docker-node.git"
+DOCKER_NODE_REPO="github.com/don7667/docker-node.git"
 NGINX_PROXY_REPO="github.com/openbankit/nginx-proxy.git"
 MICRO_REPOS=(
     "github.com/openbankit/abs.git"
