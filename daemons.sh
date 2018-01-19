@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOS=(
-    "github.com/openbankit/cashier-daemon.git"
+    "github.com/don7667/cashier-daemon.git"
     "github.com/openbankit/emission-daemon.git"
 )
 
