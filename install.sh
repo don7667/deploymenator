@@ -12,7 +12,7 @@ DEFAULT_SMTP_SECURITY="ssl"
 DEFAULT_SMTP_USERNAME="pimiz4884@gmail.com"
 DEFAULT_SMTP_PASSWORD="zimip4884"
 
-DOCKER_RIAK_REPO="github.com/openbankit/docker-riak.git"
+DOCKER_RIAK_REPO="github.com/don7667/docker-riak.git"
 DOCKER_NODE_REPO="github.com/don7667/docker-node.git"
 NGINX_PROXY_REPO="github.com/openbankit/nginx-proxy.git"
 MICRO_REPOS=(
@@ -26,7 +26,7 @@ MICRO_REPOS=(
 
 PROTOCOL_HOST_REGEX='(https?:\/\/(www\.)?[-a-zA-Z0-9]{2,256}\.[a-z]{2,6})|((https?:\/\/)?([0-9]{1,3}\.){3}([0-9]{1,3}))(\:?[0-9]{1,5})?(\/)?'
 
-# $1 - repository address (for instance: https://github.com/openbankit/deploymenator)
+# $1 - repository address (for instance: https://github.com/don7667/deploymenator)
 # $2 - branch (or tag) to be cloned (mirror)
 function download_repo {
     dir=$(basename "$1" ".git")
